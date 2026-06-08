@@ -6182,6 +6182,7 @@ static const struct camss_resources qcm2290_resources = {
 
 static const struct camss_resources qcm2390_resources = {
 	.version = CAMSS_2390,
+	.legacy_phy = true,
 	.csiphy_res = csiphy_res_2290,
 	.csid_res = csid_res_2290,
 	.vfe_res = vfe_res_2290,
